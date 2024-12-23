@@ -13,10 +13,6 @@ class Weather {
 
         } catch (err) {
 
-            // console.log(err.config);
-            // console.log(Object.keys(err));
-            // Object.keys(err).forEach((key) => console.log(err[key]));
-
             return undefined;
 
         }
